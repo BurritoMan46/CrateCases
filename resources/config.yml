@@ -1,0 +1,32 @@
+---
+
+settings:
+    noKeyTap: "You do not have enough keys to open this crate!"
+    viewKeyMessage: "{type} Keys:§6 {keys}"
+
+BrineCrate:
+    - "give {player} stick 1 {display:{Name:'§r§6§lFunny Stick'}} {ench:[{id:9s,lvl:2s}]}"
+    - "gamemode {player} 1"
+    - "tell {player} Hello!"
+
+ChristmasCrate:
+    - "give {player} stick 1 {display:{Name:'§r§6§lFunny Stick'}} {ench:[{id:9s,lvl:2s}]}"
+    - "gamemode {player} 1"
+    - "tell {player} Hello!"
+
+EasterCrate:
+    - "give {player} stick 1 {display:{Name:'§r§6§lFunny Stick'}} {ench:[{id:9s,lvl:2s}]}"
+    - "gamemode {player} 1"
+    - "tell {player} Hello!"
+
+HalloweenCrate:
+    - "give {player} stick 1 {display:{Name:'§r§6§lFunny Stick'}} {ench:[{id:9s,lvl:2s}]}"
+    - "gamemode {player} 1"
+    - "tell {player} Hello!"
+
+FreedomChest:
+    - "give {player} stick 1 {display:{Name:'§r§6§lFunny Stick'}} {ench:[{id:9s,lvl:2s}]}"
+    - "gamemode {player} 1"
+    - "tell {player} Hello!"
+
+...

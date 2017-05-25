@@ -1,0 +1,30 @@
+name: CrateCases
+main: TheDragonRing/CrateCases
+version: 1.0
+api: 2.0.0
+author: TheDragonRing
+website: thedragonring.github.io
+prefix: §0§l[§r§bCrateCases§0§l]§r
+commands:
+    keybal:
+        usage: "/keybal <type>"
+        description: "Check how many cratekeys you have"
+        permission: cratecases.cmd.keybal
+        permission-message: "You do not have permission to run this command!"
+    addcrate:
+        usage: "/addcrate <type>"
+        description: "Add a crate"
+        permission: cratecases.cmd.addcrate
+        permission-message: "You do not have permission to run this command!"
+    givekeys:
+        usage: "/givekeys <player> <type> <amount>"
+        description: "Give a player cratekeys"
+        permission: cratecases.cmd.givekeys
+        permission-message: "You do not have permission to run this command!"
+permissions:
+    cratecases.cmd.givekeys:
+        default: op
+    cratecases.cmd.addcrate:
+        default: op
+    cratecases.cmd.keybal:
+        default: true
