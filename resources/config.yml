@@ -6,8 +6,7 @@ settings:
 
 BrineCrate:
     - "give {player} stick 1 {display:{Name:'§r§6§lFunny Stick'}} {ench:[{id:9s,lvl:2s}]}"
-    - "gamemode {player} 1"
-    - "tell {player} Hello!"
+    - "say {player} Just Opened a BrineCrate!"
 
 ChristmasCrate:
     - "give {player} stick 1 {display:{Name:'§r§6§lFunny Stick'}} {ench:[{id:9s,lvl:2s}]}"
